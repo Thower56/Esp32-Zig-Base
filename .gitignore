@@ -1,0 +1,22 @@
+# Build artifacts
+build/
+.zig-cache/
+*.o
+*.elf
+*.bin
+
+# IDE/Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build configuration (regenerated)
+sdkconfig
+sdkconfig.old
+dependencies.lock
+managed_components/
+
+# OS files
+.DS_Store
+Thumbs.db
